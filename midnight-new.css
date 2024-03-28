@@ -25,15 +25,15 @@
 
 
 	/* text colors */
-	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-0: var(--bg-4); /* text on colored elements */
+	--text-1: hsl(220, 40%, 95%); /* bright text on colored elements */
+	--text-2: hsl(226, 64%, 88%); /* headings and important text */
+	--text-3: hsl(228, 24%, 72%); /* normal text */
+	--text-4: hsl(230, 13%, 55%); /* icon buttons and channels */
+	--text-5: hsl(233, 12%, 39%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-        --bg-1: hsl(234, 13%, 31%); /* dark buttons when clicked */
+	--bg-1: hsl(234, 13%, 31%); /* dark buttons when clicked */
 	--bg-2: hsl(237, 16%, 23%); /* dark buttons */
 	--bg-3: hsl(240, 21%, 12%); /* spacing, secondary elements */
 	--bg-4: hsl(240, 21%, 15%); /* main background color */
